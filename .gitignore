@@ -1,0 +1,96 @@
+# Игнорирование файлов временной компиляции
+*.pyc
+
+# Игнорирование журнальных файлов
+*.log
+
+# Игнорирование файлов скриптов сборки
+build
+dist
+
+# Игнорирование локальных файлов .egg-info
+.egg-info
+
+# Игнорирование локальных файлов виртуального окружения
+venv
+virtualenv
+env
+env/*
+
+# Игнорирование файлов логов виртуального окружения
+venv/*/log
+
+# Игнорирование файлов покрытия тестами
+coverage.*
+
+# Игнорирование скрытых файлов OS X
+.DS_Store
+
+# Игнорирование файлов Atom
+.atom/
+
+# Игнорирование файлов VS Code
+.vscode/
+
+# Игнорирование файлов документации Sphinx
+docs/_build
+
+# Игнорирование файлов Chrome DevTools
+.chrome/
+
+# Игнорирование временных файлов IPython
+ipython_save
+
+# Игнорирование файлов Pickle
+*.pickle
+
+# Игнорирование кэша PyInstaller
+*.spec
+
+# Игнорирование ccache
+ccache
+
+# Игнорирование старых исполняемых файлов
+__pycache__/
+old/
+
+# Игнорирование файлов Django
+*.migrations
+
+# Игнорирование файлов PyTest
+*.pytest_cache
+
+# Игнорирование файлов PyCharm
+*.idea/
+
+# Игнорирование файлов Pylint
+.pylint
+
+# Игнорирование журналов Pygments
+.pygments.log
+
+# Игнорирование файлов Jupyter Notebook
+.ipynb_checkpoints
+
+# Игнорирование файлов NPM
+node_modules/
+npm-debug.log
+
+# Игнорирование кэша для LSP в VS Code
+.vscode/.lscache
+
+# Игнорирование журнала Jest
+jest.log
+
+# Игнорирование кэша Webpack
+node_modules/.cache
+
+# Игнорирование логов Docker
+.dockercfg
+.docker/config.json
+.docker/machine/machines/
+
+# Игнорирование логов Composer
+composer.lock
+composer.phar
+vendor/
